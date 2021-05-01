@@ -1,0 +1,150 @@
+:root {
+  --purpleLight: #5E588D;
+  --purpleDark: #7f4cc5;
+  --blueLight: #386E92;
+  --grayLight: #9C9FB7;
+}
+
+a {
+  color: var(--purpleDark);
+  text-decoration: none;
+  background-color: transparent;
+}
+a:hover {
+  color: var(--blueLight);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+hr.divider {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: white;
+}
+
+/* masthead section --------------------------------------------------------------*/
+.btn-about {
+  color: #fff;
+  background-color: var(--purpleLight);
+  border-color: var(--purpleLight);
+}
+.btn-about:hover {
+  color: #fff;
+  background-color: var(--purpleDark);
+  border-color: var(--purpleDark);
+}
+
+.btn-about.disabled, .btn-about:disabled {
+  color: #fff;
+  background-color: var(--purpleLight);
+  border-color: var(--purpleLight);
+}
+.btn-about:not(:disabled):not(.disabled):active, .btn-about:not(:disabled):not(.disabled).active, .show > .btn-about.dropdown-toggle {
+  color: #fff;
+  background-color: var(--purpleDark);
+  border-color: var(--purpleDark);
+}
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(85, 84, 84, 0.6) 0%, rgba(85, 84, 84, 0.6) 100%), url("img/bg-masthead.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.masthead h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.masthead h1 {
+    font-size: 4.5rem;
+  }
+}
+
+/* about section ----------------------------------------------------------------*/
+#about {
+  background-color: var(--purpleLight);
+}
+
+/* recent projects section ---------------------------------------------------------------*/
+#recentProjects {
+  background-color: var(--blueLight);
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-info {
+  width: 550px;
+  margin: 1rem;
+  background-color: white;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.project-info img {
+  width: 100%;
+}
+
+.project-title {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 1rem;
+  letter-spacing: 0.5px;
+}
+
+.project-title h3 {
+  margin-top: 0;
+}
+
+.overview {
+  background-color: #fff;
+  padding: 2rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-height: 100%;
+  transform: translateY(101%);
+  overflow-y: auto;
+  transition: transform 0.3s ease-in;
+}
+
+.project-info:hover .overview {
+  transform: translateY(0);
+}
+
+/* contact section ----------------------------------------------------------------*/
+#contact hr.divider {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: var(--purpleDark);
+}
+
+/* footer ---------------------------------------------------------------------------*/
+.footer {
+  background-color: var(--grayLight);
+}
