@@ -34,6 +34,10 @@ hr.divider {
   border-color: var(--purpleDark);
 }
 
+.btn-about:active {
+  transform: scale(0.95);
+}
+
 .btn-about.disabled, .btn-about:disabled {
   color: #fff;
   background-color: var(--purpleLight);
@@ -89,7 +93,7 @@ header.masthead h1 {
 
 .project {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   margin: 0;
   padding: 0;
 }
@@ -110,15 +114,12 @@ header.masthead h1 {
 
 .project-title {
   color: black;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.5rem 1rem 1rem;
   letter-spacing: 0.5px;
 }
 
 .project-title h3 {
-  margin-top: 0;
+  margin: 15px;
+  text-align: center;
 }
 
 .overview {
@@ -149,6 +150,10 @@ header.masthead h1 {
   border-radius: 10rem;
 }
 
+.btn-s:active {
+  transform: scale(0.95);
+}
+
 /* contact section ----------------------------------------------------------------*/
 #contact hr.divider {
   max-width: 3.25rem;
@@ -160,6 +165,16 @@ header.masthead h1 {
 .footer {
   background-color: var(--grayLight);
 }
+
+.socialBtn {
+  height: 30px;
+  margin: 10px;
+}
+
+.socialBtn:active {
+  transform: scale(0.95);
+}
+
 
 /* scrollbar */
 ::-webkit-scrollbar {
