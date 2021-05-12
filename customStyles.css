@@ -22,6 +22,10 @@ hr.divider {
   border-color: white;
 }
 
+.text-align-j {
+  text-align: justify;
+}
+
 /* masthead section --------------------------------------------------------------*/
 .btn-about {
   color: #fff;
@@ -91,8 +95,12 @@ header.masthead h1 {
   background-color: var(--purpleLight);
 }
 
-.facts {
-  text-align: left;
+ol {
+  padding: 0;
+  text-align: justify;
+}
+li {
+  padding-left: 10px;
 }
 
 /* recent projects section ---------------------------------------------------------------*/
