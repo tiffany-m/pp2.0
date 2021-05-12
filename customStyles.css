@@ -3,6 +3,9 @@
   --purpleDark: #7f4cc5;
   --blueLight: #386E92;
   --grayLight: #8c8c90;
+/* scrollbar FireFox */
+  scrollbar-color: #5E588D white !important;
+  scrollbar-width: auto !important;
 }
 
 a {
@@ -203,22 +206,6 @@ li {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--purpleLight);
-  border-radius: 20px;
-  border: 4px solid transparent;
-  background-clip: content-box;
-}
-
-/* scrollbar FireFox*/
-::-moz-scrollbar {
-  width: 20px;
-}
-
-::-moz-scrollbar-track {
-  background-color: transparent;
-}
-
-::-moz-scrollbar-thumb {
   background-color: var(--purpleLight);
   border-radius: 20px;
   border: 4px solid transparent;
