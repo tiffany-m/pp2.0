@@ -29,16 +29,28 @@ hr.divider {
   text-align: justify;
 }
 
+.page-section {
+  padding: 3rem 0;
+}
+
+.btn-xl {
+  padding: 1rem 2.25rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 10rem;
+}
+
 /* masthead section --------------------------------------------------------------*/
 .btn-about {
   color: #fff;
-  background-color: var(--purpleLight);
-  border-color: var(--purpleLight);
+  background-color: var(--purpleDark);
+  border-color: var(--purpleDark);
 }
 .btn-about:hover {
   color: #fff;
-  background-color: var(--purpleDark);
-  border-color: var(--purpleDark);
+  background-color: var(--purpleLight);
+  border-color: var(--purpleLight);
 }
 
 .btn-about:active {
@@ -47,13 +59,13 @@ hr.divider {
 
 .btn-about.disabled, .btn-about:disabled {
   color: #fff;
-  background-color: var(--purpleLight);
-  border-color: var(--purpleLight);
+  background-color: var(--purpleDark);
+  border-color: var(--purpleDark);
 }
 .btn-about:not(:disabled):not(.disabled):active, .btn-about:not(:disabled):not(.disabled).active, .show > .btn-about.dropdown-toggle {
   color: #fff;
-  background-color: var(--purpleDark);
-  border-color: var(--purpleDark);
+  background-color: var(--purpleLight);
+  border-color: var(--purpleLight);
 }
 
 header.masthead {
@@ -93,7 +105,7 @@ header.masthead h1 {
   font-weight: bold;
 }
 
-/* about section ----------------------------------------------------------------*/
+/* about ----------------------------------------------------------------*/
 #about {
   background-color: var(--purpleLight);
 }
@@ -106,7 +118,7 @@ li {
   padding-left: 10px;
 }
 
-/* recent projects section ---------------------------------------------------------------*/
+/* recent projects ---------------------------------------------------------------*/
 #recentProjects {
   background-color: var(--blueLight);
 }
@@ -174,7 +186,12 @@ li {
   transform: scale(0.95);
 }
 
-/* contact section ----------------------------------------------------------------*/
+/* education --------------------------------------------------------------*/
+#education {
+  background-color: var(--grayLight);
+}
+
+/* contact  ----------------------------------------------------------------*/
 #contact hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
@@ -183,7 +200,7 @@ li {
 
 /* footer ---------------------------------------------------------------------------*/
 .footer {
-  background-color: var(--grayLight);
+  background-color: var(--purpleLight);
 }
 
 .socialBtn {
