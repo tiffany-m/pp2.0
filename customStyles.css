@@ -41,6 +41,12 @@ hr.divider {
   border-radius: 10rem;
 }
 
+#mainNav .navbar-brand {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: white;
+}
+
 /* masthead section --------------------------------------------------------------*/
 .btn-about {
   color: #fff;
@@ -203,14 +209,14 @@ li {
   background-color: var(--purpleLight);
 }
 
-.socialBtn {
+/* .socialBtn {
   height: 30px;
   margin: 10px;
 }
 
 .socialBtn:active {
   transform: scale(0.95);
-}
+} */
 
 
 /* scrollbar Chrome & Safari */
