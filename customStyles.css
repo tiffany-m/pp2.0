@@ -13,6 +13,7 @@ a {
   text-decoration: none;
   background-color: transparent;
 }
+
 a:hover {
   color: var(--blueLight);
   text-decoration: none;
@@ -162,7 +163,7 @@ li {
 
 .overview {
   background-color: #fff;
-  padding: 2rem;
+  padding: 17px;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -173,6 +174,10 @@ li {
   transition: transform 0.3s ease-in;
 }
 
+.overview-line {
+  background-color: rgb(209, 208, 208);
+}
+
 .project-info:hover .overview {
   transform: translateY(0);
 }
@@ -180,10 +185,9 @@ li {
 .btn-s {
   margin-top: 15px;
   margin-right: 5px;
-  padding: 5px 12px;
-  font-size: 12px;
+  padding: 7px 15px;
+  font-size: 15px;
   font-weight: 700;
-  text-transform: uppercase;
   border: none;
   border-radius: 10rem;
 }
