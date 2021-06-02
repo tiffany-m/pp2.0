@@ -208,19 +208,24 @@ li {
   border-color: var(--purpleDark);
 }
 
-/* footer ---------------------------------------------------------------------------*/
-.footer {
-  background-color: var(--purpleLight);
+.fa-envelope, .emailText {
+  color: var(--blueLight);
 }
 
-/* .socialBtn {
-  height: 30px;
-  margin: 10px;
+.socialBtn {
+  height: 40px;
 }
 
 .socialBtn:active {
   transform: scale(0.95);
-} */
+} 
+
+/* footer -------------------------------------------------------------------*/
+.footer {
+  background-color: var(--purpleLight);
+}
+
+
 
 
 /* scrollbar Chrome & Safari */
