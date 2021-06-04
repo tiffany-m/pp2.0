@@ -199,6 +199,12 @@ li {
   background-color: var(--grayLight);
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
 .timeline {
   position: relative;
   padding: 0;
@@ -255,9 +261,9 @@ li {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e9ecef;
+  border: 7px solid #dfdfdf;
   border-radius: 100%;
-  background-color: #ffc800;
+  background-color: #ffffff;
 }
 .timeline > li .timeline-image h4,
 .timeline > li .timeline-image .h4 {
