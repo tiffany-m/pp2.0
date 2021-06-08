@@ -1,8 +1,9 @@
 :root {
-  --purpleLight: #5e588d;
+  /* original colors, purple, blue, gray 5e588d 386e92 8c8c90, just made them all more translucent*/
+  --purpleLight: #736da1;  
   --purpleDark: #7f4cc5;
-  --blueLight: #386e92;
-  --grayLight: #8c8c90;
+  --blueLight: #4484af;
+  --grayLight: #afafb4;
   /* scrollbar FireFox */
   scrollbar-color: #5e588d white !important;
   scrollbar-width: auto !important;
@@ -22,7 +23,7 @@ a:hover {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: white;
+  border-color: black;
 }
 
 .text-align-j {
@@ -50,6 +51,12 @@ hr.divider {
 }
 
 /* masthead section --------------------------------------------------------------*/
+hr.divider-white {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: white;
+}
+
 .btn-about {
   color: #fff;
   background-color: var(--purpleDark);
