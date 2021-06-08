@@ -205,6 +205,10 @@ ul {
   text-align: left;
 }
 
+.subheading {
+  color: var(--purpleLight)
+}
+
 .timeline {
   position: relative;
   padding: 0;
