@@ -143,6 +143,9 @@ li {
 #recentProjects {
   background-color: var(--blueLight);
 }
+.recent-projects {
+  max-width: 1200px;
+}
 .project {
   display: flex;
   justify-content: center;
