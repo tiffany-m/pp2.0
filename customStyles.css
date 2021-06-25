@@ -165,6 +165,7 @@ li {
   width: 100%;
 }
 .project-title {
+  border-top: 1px solid rgba(0, 0, 0, 0.582);
   color: black;
   letter-spacing: 0.5px;
 }
@@ -174,6 +175,7 @@ li {
 }
 .overview {
   background-color: #fff;
+  border-top: 1px solid black;
   padding: 17px;
   position: absolute;
   left: 0;
