@@ -187,9 +187,9 @@ li {
   overflow-y: auto;
   transition: transform 0.3s ease-in;
 }
-.overview-line {
-  background-color: rgb(209, 208, 208);
-}
+/* .overview-line {
+  background-color: rgb(209, 208, 208); <hr class="overview-line" />
+} */
 .project-info:hover .overview {
   transform: translateY(0);
 }
