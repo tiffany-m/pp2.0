@@ -136,7 +136,8 @@ ol {
   text-align: justify;
 }
 li {
-  padding-left: 10px;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 /* recent projects ---------------------------------------------------------------*/
