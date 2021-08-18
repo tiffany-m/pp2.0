@@ -4,6 +4,6 @@ A place to showcase my recent projects and provide professional information abou
 Always a work in progress!
 ## Tech/Framework
 - HTML
-- CSS
+- CSS (including web browser engine prefixes - Webkit, Gecko)
 - JavaScript
 - Bootstrap
